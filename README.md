@@ -14,6 +14,6 @@ pip install googletrans
 pip install SpeechRecognition
 
 It works as follows: 
-1. next to the scrypt .py we place an m3u file named: speech.mp3
+1. next to the scrypt .py we place an mp3 file named: speech.mp3
 2. Run scrypt .py, speech.mp3 is converted to wav format and divided into 3 minute segments. Google Translate refused to work for me with longer segments :)
 3. segments are placed in a folder: 'audio_chunks' and start translating.
